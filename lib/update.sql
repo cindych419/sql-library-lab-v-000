@@ -1,3 +1,3 @@
 update characters
-SET species = 'Martian' 
+SET species = 'Martian'
 WHERE species = 'cylon';
