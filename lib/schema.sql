@@ -26,3 +26,8 @@ CREATE TABLE characters(
   author_id INTEGER,
   subgenre_id INTEGER
 );
+CREATE TABLE character_books(
+  id INTEGER PRIMARY KEY,
+  author_id INTEGER,
+  subgenre_id INTEGER
+);
